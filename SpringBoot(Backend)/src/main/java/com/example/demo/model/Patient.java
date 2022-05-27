@@ -19,6 +19,8 @@ public class Patient {
 	private String visitedDoctor;
 	private String dateOfVisit;
 
+	public Patient() {}
+	
 	public Patient(int pId, String name, int age, String gender, String visitedDoctor, String dateOfVisit) {
 		super();
 		this.pId = pId;

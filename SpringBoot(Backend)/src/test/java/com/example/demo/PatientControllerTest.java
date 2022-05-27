@@ -62,7 +62,7 @@ public class PatientControllerTest {
 	
 	@Test
 	public void createRecord_success() throws Exception {
-	    Patient p = new Patient(1, "Ramakant", 32, "M", "Rihan Doe", "07-09-2022");
+	    Patient p = new Patient(1, "Ramakant", 32, "M", "Rihan Doe", "07-09-2022");	    
 
 	    Mockito.when(patientRepo.save(p)).thenReturn(p);
 
